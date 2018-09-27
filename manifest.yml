@@ -1,0 +1,7 @@
+---
+applications:
+- name:    majid-compose1
+  host:    majid-compose1
+  memory:  256M
+  services:
+    - my-compose-for-mysql-service

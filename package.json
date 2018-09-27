@@ -1,0 +1,25 @@
+{
+  "name": "committee_app",
+  "version": "0.0.0",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cfenv": "1.0.x",
+    "commander": "^2.11.0",
+    "express": "~4.x",
+    "express-session": "^1.15.6",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1",
+    "multer": "^1.3.1",
+    "mysql": "*",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "twilio": "^3.18.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
